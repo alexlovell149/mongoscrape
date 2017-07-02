@@ -1,0 +1,29 @@
+{
+  "name": "mongoscraper",
+  "version": "1.0.0",
+  "description": "app using mongodb and cheerio to find and modify articles to a database",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/alexlovell149/mongoscrape.git"
+  },
+  "author": "alex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexlovell149/mongoscrape/issues"
+  },
+  "homepage": "https://github.com/alexlovell149/mongoscrape#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cheerio": "^1.0.0-rc.1",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "mongojs": "^2.4.0",
+    "mongoose": "^4.11.0",
+    "morgan": "^1.8.2",
+    "request": "^2.81.0"
+  }
+}
